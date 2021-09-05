@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark App</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <h1 id="idBtnAddBookMark"> Add Bookmark</h1>
+    
+    <div class="container" id="idbookmarks-container">
+        <!-- <div class="item">
+            <div>
+                <i class="far fa-times-circle item-del"></i>
+            </div>
+            <div class="name">
+                <i class="fas fa-bookmark">
+                    <a href="www.google.com">googleghjk.com</a>
+                </i>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <i class="far fa-times-circle item-del" title="delete"></i>
+            </div>
+            <div class="name">
+                <i class="fas fa-bookmark">
+                    <a href="www.google.com">googleghjk.com</a>
+                </i>
+            </div>
+        </div>
+        <div class="item">
+            <div>
+                <i class="far fa-times-circle item-del" title="delete"></i>
+            </div>
+            <div class="name">
+                <i class="fas fa-bookmark">
+                    <a href="www.google.com">googleghjk.com</a>
+                </i>
+            </div>
+        </div> -->
+    </div>
+    
+    <div class="add_bk_container " id="idAddBKContainder">
+        <div class="flex__container">
+            <div class="flex__container__close">
+                <h2>Add Bookmark</h2>
+                <i id="idCloseAddBkContainer" class="far fa-window-close"></i>
+            </div>
+                  
+                <form id="idBookmarkForm" class="flex__container__form" >
+                    <label for="name">Website Name:</label><br>
+                    <input type="text" id="idname" name="name"><br>
+                    <label for="url">Website URL:</label><br>
+                    <input type="text" id="idurl" name="url"><br><br>
+                    <button class="btn_submit"> Submit </button> 
+                </form>               
+           
+        </div>
+    </div>
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
